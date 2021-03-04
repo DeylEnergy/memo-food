@@ -17,7 +17,7 @@ type Deck = FoodCard[];
 
 export interface CardsMakerMachineContext {
   size: number;
-  FOOD: string[];
+  food: string[];
   deck: Deck;
   board?: FoodBoard;
   error: string;
@@ -32,7 +32,7 @@ export const boardMakerMachine = Machine<
     initial: "initial",
     context: {
       size: BOARD_SIZE,
-      FOOD: FOOD,
+      food: FOOD,
       board: undefined,
       deck: [],
       error: "",
@@ -74,7 +74,7 @@ export const boardMakerMachine = Machine<
         error: (ctx) => `'${ctx.size}' is not correct board size value.`,
       }),
       populateDeck: assign({
-        deck: (ctx) => putFood(ctx.FOOD, ctx.size),
+        deck: (ctx) => putFood(ctx.food, ctx.size),
       }),
       shuffleDeck: assign({
         deck: (ctx) => shuffleArray(ctx.deck) as Deck,
