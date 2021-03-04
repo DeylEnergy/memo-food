@@ -13,10 +13,10 @@
 Train your memory by remembering the positions of food cards.
 
 - Cards positioned randomly
-- There 18 pairs of food cards
-- You have only 5 seconds to recall a pair card
+- There are 18 pairs of food cards
+- 5 seconds to recall a pair card
 - Your player will be put in _Stats_ based on points and time
-- Multiple players can be created in order to compete with your friends!
+- Multiple profiles to compete with your friends!
 
 UI logic controlled by XState.
 
