@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/memo-food/static/css/main.1297b8ea.chunk.css",
-    "main.js": "/memo-food/static/js/main.5a3790bb.chunk.js",
-    "main.js.map": "/memo-food/static/js/main.5a3790bb.chunk.js.map",
+    "main.js": "/memo-food/static/js/main.27304745.chunk.js",
+    "main.js.map": "/memo-food/static/js/main.27304745.chunk.js.map",
     "runtime-main.js": "/memo-food/static/js/runtime-main.76b3f0ee.js",
     "runtime-main.js.map": "/memo-food/static/js/runtime-main.76b3f0ee.js.map",
     "static/js/2.0c3d7e6d.chunk.js": "/memo-food/static/js/2.0c3d7e6d.chunk.js",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.76b3f0ee.js",
     "static/js/2.0c3d7e6d.chunk.js",
     "static/css/main.1297b8ea.chunk.css",
-    "static/js/main.5a3790bb.chunk.js"
+    "static/js/main.27304745.chunk.js"
   ]
 }
