@@ -26,6 +26,7 @@ UI logic controlled by XState.
 - [React](https://reactjs.org/)
 - [XState](https://xstate.js.org/)
 - [Material UI](https://material-ui.com/)
+- [Cypress](https://cypress.io/)
 
 ## State machine
 
@@ -49,5 +50,24 @@ UI logic controlled by XState.
    ```sh
    npm start
    ```
+
+### Running tests
+
+#### in Cypress browser:
+
+- run dev build in the first terminal
+  ```sh
+  npm run test-server:start
+  ```
+- run Cypress browser in the second terminal
+  ```sh
+  npm run cy:open
+  ```
+
+#### in headless mode (shuts down automatically):
+
+```sh
+npm run test:ci
+```
 
 [game_machine]: assets/game_machine.png
