@@ -28,7 +28,12 @@ UI logic controlled by XState.
 - [Material UI](https://material-ui.com/)
 - [Cypress](https://cypress.io/)
 
-## State machine
+### Credits
+
+- Icons by [SmashIcons](https://smashicons.com/)
+- Sounds by [Joseph Sardin](https://bigsoundbank.com/)
+
+### State machine
 
 [![GameMachine][game_machine]]()
 
