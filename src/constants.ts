@@ -41,3 +41,8 @@ export const TABLET_SCREEN = {
   ICON_SIZE: 48,
   BOARD_PADDING_SPACING: 2,
 };
+
+export const TEST_ID_ATTRIBUTE = "data-cy";
+
+export const IS_CYPRESS_ENVIRONMENT =
+  process.env.REACT_APP_WRAPPER === "cypress";

@@ -8,6 +8,7 @@ import { useGameActor } from "../../hooks";
 import CountupTimer from "./CountupTimer";
 import OutcomeDisplay from "./OutcomeDisplay";
 import StatsPopover from "./StatsPopover";
+import { getTestId } from "../../utils";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -63,6 +64,7 @@ function Panel() {
                   color="primary"
                   className={classes.startButton}
                   onClick={() => send("SEE_PROFILE")}
+                  {...getTestId("new-game")}
                 >
                   New game
                 </Button>

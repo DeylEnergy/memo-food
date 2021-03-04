@@ -51,10 +51,13 @@ export const boardMakerMachine = Machine<
         },
       },
       shufflingDeck: {
-        always: {
-          actions: "shuffleDeck",
-          target: "creatingBoard",
-        },
+        always: [
+          { cond: "isTestEnvironment", target: "creatingBoard" },
+          {
+            actions: "shuffleDeck",
+            target: "creatingBoard",
+          },
+        ],
       },
       creatingBoard: {
         always: {
@@ -89,6 +92,7 @@ export const boardMakerMachine = Machine<
 
         return Number.isInteger(rowWidth);
       },
+      isTestEnvironment: () => process.env.REACT_APP_WRAPPER === "cypress",
     },
   }
 );

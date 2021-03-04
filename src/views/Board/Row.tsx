@@ -10,6 +10,7 @@ import {
   SMALL_SCREEN,
   TABLET_SCREEN,
 } from "../../constants";
+import { getTestId } from "../../utils";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -83,6 +84,7 @@ function Row({ row, rId }: RowProps) {
             [classes.inactiveCard]: isPicked || isCardInactive,
           })}
           onClick={() => handleClick({ label, id })}
+          {...getTestId("hidden-card")}
         >
           {isMemorizing || isPicked ? (
             <Tooltip title={label}>

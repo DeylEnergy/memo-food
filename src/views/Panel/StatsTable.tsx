@@ -8,7 +8,7 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import { useGameActor } from "../../hooks";
-import { getPassedTime } from "../../utils";
+import { getPassedTime, getTestId } from "../../utils";
 
 interface Column {
   id: "name" | "points" | "time";
@@ -87,8 +87,14 @@ function StatsTable() {
                 >
                   {columns.map((column) => {
                     const value = row[column.id];
+                    const testId =
+                      column.id === "points" ? getTestId("player-points") : {};
                     return (
-                      <TableCell key={column.id} align={column.align}>
+                      <TableCell
+                        key={column.id}
+                        align={column.align}
+                        {...testId}
+                      >
                         {column.format && typeof value === "number"
                           ? column.format(value)
                           : value}

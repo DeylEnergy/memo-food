@@ -14,8 +14,9 @@ import { GameActorContext } from "./hooks";
 import { Profile } from "./views/Profile";
 import { Panel } from "./views/Panel";
 import { inspect } from "@xstate/inspect";
+import { IS_CYPRESS_ENVIRONMENT } from "./constants";
 
-if (process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "development" && !IS_CYPRESS_ENVIRONMENT) {
   inspect({
     iframe: false,
   });
