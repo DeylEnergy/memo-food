@@ -20,7 +20,6 @@ interface GameMachineSchema {
     };
     playground: {
       states: {
-        intro: {};
         profile: {};
         creatingBoard: {};
         creatingSession: {};
@@ -75,10 +74,6 @@ type StartSessionEvent = {
   type: "START_SESSION";
 };
 
-type SeeIntroEvent = {
-  type: "SEE_INTRO";
-};
-
 type StartGameEvent = {
   type: "START_GAME";
 };
@@ -99,7 +94,6 @@ export type GameMachineEvents =
   | SetupProfileEvent
   | ChangePlayerNameEvent
   | StartSessionEvent
-  | SeeIntroEvent
   | StartGameEvent
   | SeeProfileEvent
   | SelectCardEvent;
@@ -144,22 +138,12 @@ export const gameMachine = Machine<
         id: "playground",
         initial: "profile",
         states: {
-          intro: {
-            on: {
-              SETUP_PROFILE: {
-                target: "profile",
-              },
-            },
-          },
           profile: {
             on: {
               CHANGE_PLAYER_NAME: {
                 actions: ["setPlayerName"],
               },
               START_GAME: [{ cond: "hasPlayerName", target: "creatingBoard" }],
-              SEE_INTRO: {
-                target: "intro",
-              },
             },
           },
           creatingBoard: {
