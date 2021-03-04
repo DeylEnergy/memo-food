@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/memo-food/static/css/main.1297b8ea.chunk.css",
+    "main.js": "/memo-food/static/js/main.5a3790bb.chunk.js",
+    "main.js.map": "/memo-food/static/js/main.5a3790bb.chunk.js.map",
+    "runtime-main.js": "/memo-food/static/js/runtime-main.76b3f0ee.js",
+    "runtime-main.js.map": "/memo-food/static/js/runtime-main.76b3f0ee.js.map",
+    "static/js/2.0c3d7e6d.chunk.js": "/memo-food/static/js/2.0c3d7e6d.chunk.js",
+    "static/js/2.0c3d7e6d.chunk.js.map": "/memo-food/static/js/2.0c3d7e6d.chunk.js.map",
+    "static/js/3.9c6b5273.chunk.js": "/memo-food/static/js/3.9c6b5273.chunk.js",
+    "static/js/3.9c6b5273.chunk.js.map": "/memo-food/static/js/3.9c6b5273.chunk.js.map",
+    "index.html": "/memo-food/index.html",
+    "static/css/main.1297b8ea.chunk.css.map": "/memo-food/static/css/main.1297b8ea.chunk.css.map",
+    "static/js/2.0c3d7e6d.chunk.js.LICENSE.txt": "/memo-food/static/js/2.0c3d7e6d.chunk.js.LICENSE.txt",
+    "static/media/apple.9c3e3a73.svg": "/memo-food/static/media/apple.9c3e3a73.svg",
+    "static/media/candy.50429e13.svg": "/memo-food/static/media/candy.50429e13.svg",
+    "static/media/cheese.986768a9.svg": "/memo-food/static/media/cheese.986768a9.svg",
+    "static/media/cupcake.a6951c2a.svg": "/memo-food/static/media/cupcake.a6951c2a.svg",
+    "static/media/doughnut.5561d4a9.svg": "/memo-food/static/media/doughnut.5561d4a9.svg",
+    "static/media/egg.2c7b4cdd.svg": "/memo-food/static/media/egg.2c7b4cdd.svg",
+    "static/media/fries.471be26b.svg": "/memo-food/static/media/fries.471be26b.svg",
+    "static/media/gingerbread.7bb96fa1.svg": "/memo-food/static/media/gingerbread.7bb96fa1.svg",
+    "static/media/hamburger.c2eabc23.svg": "/memo-food/static/media/hamburger.c2eabc23.svg",
+    "static/media/honey.53b94fc3.svg": "/memo-food/static/media/honey.53b94fc3.svg",
+    "static/media/hotdog.504168a2.svg": "/memo-food/static/media/hotdog.504168a2.svg",
+    "static/media/icecream.24cc8c4d.svg": "/memo-food/static/media/icecream.24cc8c4d.svg",
+    "static/media/lost.df0fda29.mp3": "/memo-food/static/media/lost.df0fda29.mp3",
+    "static/media/matched.ece5333d.mp3": "/memo-food/static/media/matched.ece5333d.mp3",
+    "static/media/milk.3c4cbc0f.svg": "/memo-food/static/media/milk.3c4cbc0f.svg",
+    "static/media/orange.614a5bdb.svg": "/memo-food/static/media/orange.614a5bdb.svg",
+    "static/media/peach.c0a49a08.svg": "/memo-food/static/media/peach.c0a49a08.svg",
+    "static/media/pizza.9754f292.svg": "/memo-food/static/media/pizza.9754f292.svg",
+    "static/media/pudding.85208db3.svg": "/memo-food/static/media/pudding.85208db3.svg",
+    "static/media/watermelon.8902e7dc.svg": "/memo-food/static/media/watermelon.8902e7dc.svg",
+    "static/media/won.b143fa0e.mp3": "/memo-food/static/media/won.b143fa0e.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76b3f0ee.js",
+    "static/js/2.0c3d7e6d.chunk.js",
+    "static/css/main.1297b8ea.chunk.css",
+    "static/js/main.5a3790bb.chunk.js"
+  ]
+}
